@@ -8,9 +8,9 @@ import { defaultBadgesConfig } from "../../config";
 
 export const Toolbar = () => {
   const api = useStorybookApi();
-  const storyBadges = api.getCurrentParameter<string[]>(PARAM_BADGES_KEY) || [];
+  const storyBadges = api?.getCurrentParameter<string[]>(PARAM_BADGES_KEY) || [];
   const customBadgesConfig =
-    api.getCurrentParameter<BadgesConfig>(PARAM_CONFIG_KEY) || {};
+    api?.getCurrentParameter<BadgesConfig>(PARAM_CONFIG_KEY) || {};
 
   const config = {
     ...defaultBadgesConfig,

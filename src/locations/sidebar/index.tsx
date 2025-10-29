@@ -1,4 +1,4 @@
-import type { API_HashEntry, API_SidebarOptions } from "@storybook/types";
+import type { API_HashEntry, API_SidebarOptions } from "storybook/internal/types";
 import React from "react";
 import { Sidebar } from "./sidebar";
 

@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "incremental": false,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "lib": ["es2022", "dom"],
     "module": "es2022",
     "moduleResolution": "bundler",
