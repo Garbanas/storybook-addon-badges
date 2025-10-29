@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import { Separator } from "@storybook/components";
-import { styled } from "@storybook/theming";
+import { Separator } from "storybook/internal/components";
+import { styled } from "storybook/theming";
 import { Badge } from "./badge.component";
 import { BadgeConfig } from "../typings.interface";
 

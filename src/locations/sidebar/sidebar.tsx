@@ -1,4 +1,4 @@
-import { useStorybookApi } from "@storybook/manager-api";
+import { useStorybookApi } from "storybook/manager-api";
 import React, { FC } from "react";
 import type { API_DocsEntry, API_StoryEntry } from "@storybook/types";
 import { PARAM_BADGES_KEY, PARAM_CONFIG_KEY } from "../../constants";

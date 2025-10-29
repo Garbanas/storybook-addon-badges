@@ -1,4 +1,4 @@
-import { useStorybookApi } from "@storybook/manager-api";
+import { useStorybookApi } from "storybook/manager-api";
 import React from "react";
 
 import { PARAM_BADGES_KEY, PARAM_CONFIG_KEY } from "../../constants";

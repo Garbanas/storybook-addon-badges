@@ -1,5 +1,5 @@
 import type {ComponentProps} from "react";
-import type {TooltipMessage} from "@storybook/components";
+import type {TooltipMessage} from "storybook/internal/components";
 import type {Property} from 'csstype';
 
 export type TooltipConfig =

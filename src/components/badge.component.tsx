@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { styled } from "@storybook/theming";
+import { styled } from "storybook/theming";
 
 import { BadgeTooltipWrapper } from "./badge-tooltip-wrapper.component";
 import type { BadgeConfig } from "../typings.interface";

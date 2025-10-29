@@ -1,5 +1,5 @@
 import React from 'react';
-import {WithTooltip, TooltipMessage} from '@storybook/components';
+import {WithTooltip, TooltipMessage} from 'storybook/internal/components';
 
 import type {FC, ReactNode} from 'react';
 import type {TooltipConfig} from "../typings.interface";
